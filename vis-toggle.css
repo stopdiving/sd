@@ -1,0 +1,44 @@
+.vis-toggle {
+  display: flex;
+  -webkit-text-size-adjust: 100%;
+  margin-bottom: 0.5rem;
+}
+
+.vis-toggle .toggle-item__input {
+  position: absolute;
+  clip: rect(0, 0, 0, 0);
+  pointer-events: none;
+}
+
+.vis-toggle .toggle-item__label {
+  font-size: var(--fs-sm);
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  background-color: #f5f5f5;
+  padding: 0.375rem 0.75rem;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  transition: background-color 0.15s;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.vis-toggle .toggle-item:first-child .toggle-item__label {
+  border-top-left-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+}
+
+.vis-toggle .toggle-item:last-child .toggle-item__label {
+  border-top-right-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+}
+
+.vis-toggle .toggle-item__input:hover + .toggle-item__label,
+.vis-toggle .toggle-item__input:focus + .toggle-item__label {
+  background-color: #eeeeee;
+}
+
+.vis-toggle .toggle-item__input:checked + .toggle-item__label {
+  background-color: var(--color-text-lightest);
+}

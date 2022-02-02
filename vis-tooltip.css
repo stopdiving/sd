@@ -1,0 +1,25 @@
+.vis-tooltip {
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  font-size: var(--fs-xs);
+  background-color: var(--color-background);
+  color: var(--color-text);
+  border-radius: 0.25rem;
+  padding: 0.5rem;
+  box-shadow: 0 3px 5px -1px rgba(0, 0, 0, 0.2),
+    0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12);
+  will-change: visibility transform;
+  visibility: hidden;
+  transition: visibility 0.15s;
+}
+
+.vis-tooltip.is-visible {
+  visibility: visible;
+}
+
+.vis-tooltip .tooltip-highlight {
+  font-size: var(--fs-md);
+  line-height: 1.2;
+}
