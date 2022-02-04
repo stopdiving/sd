@@ -1,0 +1,42 @@
+.vis-gender-comparison {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: -1rem;
+  position: relative;
+}
+
+.vis-gender-comparison .category-container {
+  margin: 1rem;
+}
+
+.vis-gender-comparison .category-title {
+  text-align: center;
+  margin-bottom: 0.5rem;
+  text-transform: capitalize;
+}
+
+.vis-gender-comparison .icon-path {
+  color: var(--color-text-lighter);
+  transition: color 0.15s;
+}
+
+.vis-gender-comparison .icon-path.is-active {
+  color: var(--color-text-light);
+}
+
+.vis-gender-comparison .icon-path.is-men.dives-0 {
+  color: var(--color-blue);
+}
+
+.vis-gender-comparison .icon-path.is-men.dives-0.is-active {
+  color: var(--color-blue-darker);
+}
+
+.vis-gender-comparison .icon-path.is-women.dives-0 {
+  color: var(--color-green);
+}
+
+.vis-gender-comparison .icon-path.is-women.dives-0.is-active {
+  color: var(--color-green-darker);
+}

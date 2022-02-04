@@ -1,0 +1,80 @@
+/* Shared */
+.vis {
+  --color-background: #fff;
+  --color-text: #212121;
+  --color-text-light: #616161;
+  --color-text-lighter: #9e9e9e;
+  --color-text-lightest: #e0e0e0;
+  --color-error: #ff5252;
+
+  --color-green: #94c47d;
+  --color-green-darker: #6e9d59;
+  --color-blue: #6d9eec;
+  --color-blue-darker: #4279c3;
+  --color-orange: #f7b36b;
+  --color-red: #e06667;
+
+  --fs-md: 1rem;
+  --fs-sm: 0.875rem;
+  --fs-xs: 0.75rem;
+
+  color: var(--color-text);
+  font-size: var(--fs-md);
+  font-weight: 400;
+  line-height: 1.5;
+  font-variant-numeric: tabular-nums;
+}
+
+.vis .vis-container {
+  height: 100%;
+  display: grid;
+  gap: 0.5rem;
+}
+
+.vis .svg-container {
+  position: relative;
+  touch-action: manipulation;
+}
+
+.vis .chart-svg {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+  font-size: var(--fs-xs);
+}
+
+.vis .chart-svg--non-positioned {
+  display: block;
+}
+
+.vis .axis-g {
+  font-family: inherit;
+  font-size: var(--fs-xs);
+  color: var(--color-text-light);
+}
+
+.vis .axis-g .domain {
+  display: none;
+}
+
+.vis .axis-g .tick line {
+  color: var(--color-text-lightest);
+}
+
+.vis .axis-g .tick.is-zero line {
+  color: var(--color-text-lighter);
+}
+
+.vis .focus-rect,
+.vis .focus-circle {
+  color: var(--color-text-lightest);
+}
+
+.vis .is-highlighted {
+  stroke: var(--color-text);
+  stroke-width: 1.5px;
+}

@@ -1,0 +1,19 @@
+.vis-teams-diving-behavior {
+  grid-template-rows: min-content 1fr min-content;
+}
+
+.vis-teams-diving-behavior.is-men .dives {
+  color: var(--color-blue);
+}
+
+.vis-teams-diving-behavior.is-women .dives {
+  color: var(--color-green);
+}
+
+.vis-teams-diving-behavior .dives-match {
+  color: var(--color-text-lighter);
+}
+
+.vis-teams-diving-behavior .axis-g--x .domain {
+  display: none;
+}

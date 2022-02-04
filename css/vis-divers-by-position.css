@@ -1,0 +1,19 @@
+.vis-divers-by-position {
+  grid-template-rows: 1fr min-content;
+}
+
+.vis-divers-by-position .goalkeeper {
+  color: var(--color-green);
+}
+
+.vis-divers-by-position .defender {
+  color: var(--color-blue);
+}
+
+.vis-divers-by-position .midfielder {
+  color: var(--color-orange);
+}
+
+.vis-divers-by-position .forward {
+  color: var(--color-red);
+}

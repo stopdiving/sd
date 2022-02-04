@@ -1,0 +1,51 @@
+.vis-relationship-between-teams {
+  grid-template-rows: min-content 1fr;
+}
+
+.vis-relationship-between-teams .swipe-rect {
+  color: var(--color-background);
+}
+
+.vis-relationship-between-teams .nodes-g {
+  color: var(--color-text-light);
+}
+
+.vis-relationship-between-teams .links-g {
+  color: var(--color-text-lighter);
+}
+
+.vis-relationship-between-teams .labels-g {
+  color: var(--color-text);
+}
+
+.vis-relationship-between-teams .values-g {
+  color: var(--color-text-light);
+}
+
+.vis-relationship-between-teams.is-men .node-rect {
+  color: var(--color-blue);
+}
+
+.vis-relationship-between-teams.is-women .node-rect {
+  color: var(--color-green);
+}
+
+.vis-relationship-between-teams .link-path {
+  opacity: 0.5;
+}
+
+.vis-relationship-between-teams .is-muted {
+  opacity: 0.4;
+}
+
+.vis-relationship-between-teams .link-path.is-muted {
+  opacity: 0.2;
+}
+
+.vis-relationship-between-teams .link-path.is-active {
+  color: var(--color-text-light);
+}
+
+.vis-relationship-between-teams .label-text.is-active {
+  color: var(--color-text);
+}

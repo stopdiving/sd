@@ -1,0 +1,26 @@
+.vis-top-ranked-players .symbol-path {
+  color: var(--color-text-lighter);
+}
+
+.vis-top-ranked-players .is-label-highlighted {
+  color: var(--color-red);
+}
+
+.vis-top-ranked-players.is-men .is-color-highlighted {
+  color: var(--color-blue);
+}
+
+.vis-top-ranked-players.is-women .is-color-highlighted {
+  color: var(--color-green);
+}
+
+.vis-top-ranked-players .trend-path {
+  color: var(--color-red);
+}
+
+.vis-top-ranked-players .label-text__bg {
+  stroke: var(--color-background);
+  stroke-width: 3px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}

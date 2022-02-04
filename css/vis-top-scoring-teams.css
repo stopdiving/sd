@@ -1,0 +1,15 @@
+.vis-top-scoring-teams {
+  grid-template-rows: 1fr min-content;
+}
+
+.vis-top-scoring-teams.is-men .scored-goals {
+  color: var(--color-blue);
+}
+
+.vis-top-scoring-teams.is-women .scored-goals {
+  color: var(--color-green);
+}
+
+.vis-top-scoring-teams .dives {
+  color: var(--color-red);
+}
