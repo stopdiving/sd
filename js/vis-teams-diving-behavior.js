@@ -10,9 +10,9 @@ class VisTeamsDivingBehavior {
 
   async init() {
     const mensDataUrl =
-      "https://docs.google.com/spreadsheets/d/e/2PACX-1vTkLKyQZobPBXxqYcSpmgyHaINd_P-0QS3pU2HxEIeDblrs7R5Hk6gFFZb6Q2Iv4dBy_Q2VrRNBmBTh/pub?gid=1776515049&single=true&output=csv";
+      "https://cdn.jsdelivr.net/gh/stopdiving/sd/CVS/SoccerDivingData(public-charts-data-source)Chart2Teams-diving-behavior-(Mens).csv";
     const womensDataUrl =
-      "https://docs.google.com/spreadsheets/d/e/2PACX-1vTkLKyQZobPBXxqYcSpmgyHaINd_P-0QS3pU2HxEIeDblrs7R5Hk6gFFZb6Q2Iv4dBy_Q2VrRNBmBTh/pub?gid=820111858&single=true&output=csv";
+      "https://cdn.jsdelivr.net/gh/stopdiving/sd/CVS/SoccerDivingData(public-charts-data-source)Chart2Teams-diving-behavior(Womens).csv";
 
     try {
       const [men, women] = await new VisDataLoader(this.el).get([
