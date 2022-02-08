@@ -9,7 +9,7 @@ class VisGenderComparison {
 
   async init() {
     const dataUrl =
-      "https://docs.google.com/spreadsheets/d/e/2PACX-1vTkLKyQZobPBXxqYcSpmgyHaINd_P-0QS3pU2HxEIeDblrs7R5Hk6gFFZb6Q2Iv4dBy_Q2VrRNBmBTh/pub?gid=1109042968&single=true&output=csv";
+      "https://cdn.jsdelivr.net/gh/stopdiving/sd/CVS/SoccerDivingData(public-charts-data-source)Chart8Gender-comparison.csv";
 
     try {
       [this.data] = await new VisDataLoader(this.el).get([dataUrl]);
