@@ -10,9 +10,9 @@ class VisRelationshipBetweenTeams {
 
   async init() {
     const mensDataUrl =
-      "https://docs.google.com/spreadsheets/d/e/2PACX-1vTkLKyQZobPBXxqYcSpmgyHaINd_P-0QS3pU2HxEIeDblrs7R5Hk6gFFZb6Q2Iv4dBy_Q2VrRNBmBTh/pub?gid=135998558&single=true&output=csv";
+      "https://cdn.jsdelivr.net/gh/stopdiving/sd/CVS/SoccerDivingData(public-charts-data-source)Chart7Mens-connections.csv";
     const womensDataUrl =
-      "https://docs.google.com/spreadsheets/d/e/2PACX-1vTkLKyQZobPBXxqYcSpmgyHaINd_P-0QS3pU2HxEIeDblrs7R5Hk6gFFZb6Q2Iv4dBy_Q2VrRNBmBTh/pub?gid=995619981&single=true&output=csv";
+      "https://cdn.jsdelivr.net/gh/stopdiving/sd/CVS/SoccerDivingData(public-charts-data-source)Chart7Womens-connections.csv";
 
     try {
       const [men, women] = await new VisDataLoader(this.el).get([
