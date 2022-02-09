@@ -16,8 +16,8 @@ class VisTopRankedPlayers {
         "https://cdn.jsdelivr.net/gh/stopdiving/sd/CVS/SoccerDivingData(public-charts-data-source)Chart3Top-ranked-players(MensTrendline).csv",
       ],
       women: [
-        "https://docs.google.com/spreadsheets/d/e/2PACX-1vTkLKyQZobPBXxqYcSpmgyHaINd_P-0QS3pU2HxEIeDblrs7R5Hk6gFFZb6Q2Iv4dBy_Q2VrRNBmBTh/pub?gid=1566293210&single=true&output=csv",
-        "https://docs.google.com/spreadsheets/d/e/2PACX-1vTkLKyQZobPBXxqYcSpmgyHaINd_P-0QS3pU2HxEIeDblrs7R5Hk6gFFZb6Q2Iv4dBy_Q2VrRNBmBTh/pub?gid=391091870&single=true&output=csv",
+        "https://cdn.jsdelivr.net/gh/stopdiving/sd/CVS/SoccerDivingData(public-charts-data-source)Chart4Top-ranked-players(Womens).csv",
+        "https://cdn.jsdelivr.net/gh/stopdiving/sd/CVS/SoccerDivingData(public-charts-data-source)Chart4Top-ranked-players(WomensTrendline).csv",
       ],
     };
 
