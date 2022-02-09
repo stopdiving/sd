@@ -11,9 +11,9 @@ class VisTopScoringTeams {
 
   async init() {
     const dataUrl = {
-      men: "https://docs.google.com/spreadsheets/d/e/2PACX-1vTkLKyQZobPBXxqYcSpmgyHaINd_P-0QS3pU2HxEIeDblrs7R5Hk6gFFZb6Q2Iv4dBy_Q2VrRNBmBTh/pub?gid=53536223&single=true&output=csv",
+      men: "https://cdn.jsdelivr.net/gh/stopdiving/sd/CVS/SoccerDivingData(public-charts-data-source)Chart5Top-scoring-teams(Mens).csv",
       women:
-        "https://docs.google.com/spreadsheets/d/e/2PACX-1vTkLKyQZobPBXxqYcSpmgyHaINd_P-0QS3pU2HxEIeDblrs7R5Hk6gFFZb6Q2Iv4dBy_Q2VrRNBmBTh/pub?gid=1884486750&single=true&output=csv",
+        "https://cdn.jsdelivr.net/gh/stopdiving/sd/CVS/SoccerDivingData(public-charts-data-source)Chart6-Top-scoring-teams(Womens).csv",
     };
 
     try {
